@@ -17,7 +17,7 @@ inputs:
   checkstyle_config:
     description: 'Checkstyle config file'
     required: true
-    default: 'google_checks.xml'
+    default: 'checkstyle-circle.xml'
   workdir:
     description: 'Working directory relative to the root directory.'
     default: '.'
